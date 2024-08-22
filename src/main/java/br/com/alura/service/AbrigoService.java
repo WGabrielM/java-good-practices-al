@@ -40,7 +40,7 @@ public class AbrigoService {
         }
     }
 
-    public void cadastrarAbrigos() throws IOException, InterruptedException {
+    public void cadastrarAbrigo() throws IOException, InterruptedException {
         System.out.println("Digite o nome do abrigo:");
         String nome = new Scanner(System.in).nextLine();
         System.out.println("Digite o telefone do abrigo:");
